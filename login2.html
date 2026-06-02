@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login MS Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Login MS Code</h1>
+
+    <form action="#" method="post">
+
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui" required>
+
+        <br><br>
+
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" name="nascimento" id="nascimento" required>
+
+        <br><br>
+        
+        <label for="cidade">Sua cidade de origem: </label>
+        <select name="cidade" id="cidade" required>
+            <option value="pinheiros">Pinheiros - ES</option>
+            <option value="são mateus">São Mateus - ES</option>
+            <option value="vitória">Vitória - ES</option>
+            <style>
+
+            </style>
+        </select>
+
+        <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+
+        <br><br>
+
+        <label for="senha">Digite sua senha: </label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha aqui" required minlength="8">
+
+        <br><br>
+        
+        <a href="https://docs.github.com/pt/site-policy/github-terms/github-terms-of-service">Ler termos de uso</a>
+        <input type="checkbox" name="termos" id="termos">
+        <label for="termos">Aceito os termos</label>
+
+        <br><br>
+
+        <button type="submit">Login</button>
+
+
+    </form>
+    
+</body>
+</html>
