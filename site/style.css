@@ -1,0 +1,208 @@
+:root{
+        --creme: #F5E6D3;
+        --bege: #D7B899;
+        --caramelo: #A67C52;
+        --marrom: #5C4033;
+        --preto: #1E1E1E;
+        --branco: #FFFFFF;
+        }
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        }
+
+        html{
+            scroll-behavior: smooth;
+            }
+
+        body{
+        background-color: var(--creme);
+        color: var(--preto);
+        line-height: 1.6;
+        }
+
+        /* HEADER */
+
+        header{
+            background: linear-gradient(
+            135deg,
+            var(--marrom),
+            var(--preto)
+            );
+        color: var(--branco);
+        padding: 30px;
+        }
+
+        nav{
+            text-align: center;
+        }
+
+        h1{
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        nav ul{
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        nav ul li{
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a{
+            color: var(--creme);
+            text-decoration: none;
+            font-weight: 500;
+            transition: .3s;
+        }
+
+        nav a:hover{
+            color: var(--bege);
+        }
+
+        h2{
+            margin: 20px 0;
+        }
+
+        /* Pesquisa */
+
+        input,
+        textarea{
+            width: 100%;
+            max-width: 500px;
+            padding: 12px;
+            border: 2px solid var(--bege);
+            border-radius: 10px;
+            background-color: var(--branco);
+            margin-top: 5px;
+        }
+
+        button{
+            margin-top: 10px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            background-color: var(--caramelo);
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            transition: .3s;
+        }
+
+        button:hover{
+            background-color: var(--marrom);
+            transform: translateY(-2px);
+        }
+
+        /* Imagens */
+
+        img{
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.25);
+        }
+
+        /* MAIN */
+
+        main{
+            padding: 40px;
+        }
+
+        section{
+            margin-bottom: 50px;
+        }
+
+        /* Categorias */
+
+        #categorias{
+            background: var(--branco);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.08);
+        }
+
+        #categorias ul{
+            margin-left: 20px;
+        }
+
+        /* TABELA */
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,.08);
+            table-layout: fixed;
+        }
+
+        th{
+            background-color: var(--marrom);
+            color: white;
+            padding: 15px;
+        }
+
+        td{
+            text-align: center;
+            padding: 15px;
+        }
+
+        tr:nth-child(even){
+            background-color: #f9f0e7;
+        }
+
+        tr:hover{
+            background-color: #f1e1d0;
+        }
+
+        /* FOOTER */
+
+        footer{
+            background-color: var(--preto);
+            color: white;
+            padding: 40px;
+        }
+
+        footer h2,
+        footer h3{
+        margin-bottom: 15px;
+        }
+
+        footer ul{
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        footer li{
+            margin-bottom: 8px;
+        }
+
+        footer a{
+            color: var(--bege);
+            text-decoration: none;
+        }
+
+        footer a:hover{
+            color: white;
+        }
+
+        footer p{
+            margin-top: 20px;
+            text-align: center;
+            opacity: .8;
+        }
+
+        /* Linhas */
+
+        hr{
+            border: none;
+            height: 2px;
+            background-color: var(--bege);
+        }
