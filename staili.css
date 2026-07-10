@@ -1,0 +1,243 @@
+:root {
+    --creme:#F5E6D3;
+    --bege: #D7B899;
+    --caramelo: #A67C52;
+    --chocolate: #4d362b;
+    --cafe: #1E1E1E;
+    --leite: #FFFFFF;
+    --creminho:#fdf2e1;
+}
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--creme);
+}
+
+
+header{
+    background-color: var(--chocolate);
+    padding: 25px 50px;
+}
+
+
+#inicio{
+    display:flex;
+    align-items: center;
+}
+
+
+#inicio h1{
+    color: var(--leite);
+    margin: 0;
+}
+
+
+nav{
+    flex: 1;
+}
+
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+
+
+    list-style-type: none;
+}
+
+
+nav a{
+    color: var(--bege);
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+
+.search{
+    display:flex;
+    gap: 5px;
+    align-items: center;
+    color: var(--leite);
+}
+
+
+footer{
+    background-color: var(--cafe);
+    color: var(--leite);
+    margin: 0;
+}
+
+
+footer a{
+    color: var(--bege);
+    text-decoration: none;
+}
+
+
+footer ul{
+    list-style: none;
+}
+
+
+.imglol {
+    text-align: center;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    table-layout: fixed;
+}
+
+
+th {
+    background-color: var(--chocolate);
+    color: var(--leite);
+}
+th, td {
+    padding: 10px;
+    border: 1px solid var(--caramelo);
+    text-align: center;
+}
+
+
+button {
+    background-color: var(--cafe);
+    color: var(--leite);
+    padding: 5px 10px;
+}
+
+
+nav a:hover{
+    color: var(--creme);
+    transform: scale(1.1);
+}
+
+
+#categorias a{
+    color: var(--cafe);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+
+#categorias ul {
+    list-style: none;
+}
+
+
+#categorias a:hover {
+    color: var(--chocolate);
+    transform:scale(1.1);
+}
+
+
+
+
+footer ul{
+    margin: 50px;
+    display: flex;
+    gap: 15px;
+    margin-left: 0;
+}
+
+
+footer li a{
+    color: var(--bege);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+
+
+}
+
+
+footer a:hover{
+    color: var(--creme);
+    transform: scale(1.1);
+}
+
+
+button{
+    background-color: var(--caramelo);
+    color: var(--leite);
+    border-radius: 8px;
+    border: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+
+}
+
+
+header input {
+    width: 325px;
+    height: 30px;
+}
+
+
+main td{
+    background-color: var(--leite);
+}
+
+
+tr:hover td{
+    background-color: var(--bege);
+}
+
+
+.prodts h2 {
+    margin: 20px;
+    margin-left: 0;
+}
+
+
+footer input {
+    width: 500px;
+    height: 30px;
+}
+
+
+footer textarea {
+    width: 500px;
+    height: 80px;
+}
+
+
+footer h2 {
+    margin: 0;
+}
+
+
+#produtos button {
+    padding: 16px 32px;
+}
+
+
+
+#produtos button {
+    background-color: var(--chocolate);
+}
